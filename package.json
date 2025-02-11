@@ -2,6 +2,7 @@
   "name": "personalwen",
   "version": "0.1.0",
   "homepage": "https://github.com/Imercenary27/portfolio.git",
+  "homepage": "https://github.com/Imercenary27/portfolio",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.111.3",
