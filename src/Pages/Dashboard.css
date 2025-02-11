@@ -1,0 +1,28 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    padding-top: 4rem; /* Offset for fixed navbar */
+  }
+  
+  section {
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  section#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+  }
+  
+  section#about,
+  section#contact {
+    background-color: #f4f4f4;
+  }
+  
+  section#about h2,
+  section#contact h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  

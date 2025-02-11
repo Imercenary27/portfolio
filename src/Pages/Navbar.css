@@ -1,0 +1,71 @@
+/* Navbar Styles */
+.navbar {
+  background-color: rgba(26, 26, 26, 0.95);
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+.navbar.scrolled {
+  padding: 0.8rem 2rem;
+  background-color: rgba(156, 149, 149, 0.962);
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-text {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem; /* Adjust spacing between links */
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #4a90e2; /* Hover color */
+}
+
+/* Fix for Overflow Issues */
+.navbar {
+  box-sizing: border-box; /* Ensures padding and borders are included in width */
+}
+
+.nav-links {
+  flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem; /* Reduce padding for smaller screens */
+    justify-content: center; /* Center-align navbar items */
+    flex-direction: column; /* Stack items vertically */
+    gap: unset; /* Remove unnecessary gaps */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    text-align: center; /* Align text centrally */
+    width: auto; /* Ensure it doesn't exceed screen width */
+    box-shadow: none; /* Simplify design for mobile */
+    background-color: rgba(26,26,26,.90); 
+}
+}
