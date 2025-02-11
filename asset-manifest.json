@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Imercenary27/portfolio.git/static/css/main.b6fc31c4.css",
+    "main.js": "/Imercenary27/portfolio.git/static/js/main.28b30ae3.js",
+    "static/js/453.04492f8d.chunk.js": "/Imercenary27/portfolio.git/static/js/453.04492f8d.chunk.js",
+    "static/media/profileimage.png": "/Imercenary27/portfolio.git/static/media/profileimage.996329f8c5ee1c29afeb.png",
+    "index.html": "/Imercenary27/portfolio.git/index.html",
+    "main.b6fc31c4.css.map": "/Imercenary27/portfolio.git/static/css/main.b6fc31c4.css.map",
+    "main.28b30ae3.js.map": "/Imercenary27/portfolio.git/static/js/main.28b30ae3.js.map",
+    "453.04492f8d.chunk.js.map": "/Imercenary27/portfolio.git/static/js/453.04492f8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6fc31c4.css",
+    "static/js/main.28b30ae3.js"
+  ]
+}
